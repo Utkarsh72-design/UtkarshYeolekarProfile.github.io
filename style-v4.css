@@ -57,12 +57,31 @@ nav {
 }
 
 .brand-stack {
+  position: relative;
   display: inline-flex;
   flex-direction: row;
   align-items: baseline;
   justify-content: flex-start;
   gap: 8px;
-  padding: 2px 0 6px;
+  padding: 2px 0 8px;
+}
+
+.brand-stack::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  bottom: 0;
+  width: calc(100% - 4px);
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    rgba(115,167,255,0),
+    rgba(115,167,255,0.7),
+    rgba(255,127,216,0.55),
+    rgba(255,127,216,0)
+  );
+  opacity: 0.9;
 }
 
 .brand-first {
@@ -91,24 +110,6 @@ nav {
   text-shadow:
     0 0 12px rgba(115, 167, 255, 0.14),
     0 0 20px rgba(255, 127, 216, 0.08);
-}
-
-.brand-last::after {
-  content: "";
-  position: absolute;
-  left: 2px;
-  bottom: -6px;
-  width: calc(100% - 4px);
-  height: 2px;
-  border-radius: 999px;
-  background: linear-gradient(
-    90deg,
-    rgba(115,167,255,0),
-    rgba(115,167,255,0.7),
-    rgba(255,127,216,0.55),
-    rgba(255,127,216,0)
-  );
-  opacity: 0.9;
 }
 
 .nav-links {
@@ -426,13 +427,9 @@ a {
     align-items: flex-start;
   }
 
-  .brand-first {
-    font-size: 1rem;
-    letter-spacing: -0.04em;
-  }
-
+  .brand-first,
   .brand-last {
-    font-size: 1rem;
+    font-size: 1.08rem;
   }
 
   .nav-links {
