@@ -58,31 +58,34 @@ nav {
 
 .brand-stack {
   display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 2px;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 8px;
   padding: 2px 0 6px;
 }
 
 .brand-first {
-  display: block;
-  font-family: 'Inter', Arial, sans-serif;
-  font-size: 0.72rem;
+  display: inline-block;
+  font-family: 'Sora', 'Inter', Arial, sans-serif;
+  font-size: 1.34rem;
   font-weight: 700;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.78);
-  margin-left: 3px;
+  letter-spacing: -0.055em;
+  text-transform: none;
+  color: var(--text-white);
   line-height: 1;
+  margin-left: 0;
+  text-shadow:
+    0 0 12px rgba(115, 167, 255, 0.14),
+    0 0 20px rgba(255, 127, 216, 0.08);
 }
 
 .brand-last {
   position: relative;
   font-family: 'Sora', 'Inter', Arial, sans-serif;
-  font-size: 1.42rem;
+  font-size: 1.34rem;
   font-weight: 700;
-  letter-spacing: -0.06em;
+  letter-spacing: -0.055em;
   color: var(--text-white);
   line-height: 1;
   text-shadow:
@@ -424,12 +427,12 @@ a {
   }
 
   .brand-first {
-    font-size: 0.62rem;
-    letter-spacing: 0.14em;
+    font-size: 1rem;
+    letter-spacing: -0.04em;
   }
 
   .brand-last {
-    font-size: 1.18rem;
+    font-size: 1rem;
   }
 
   .nav-links {
