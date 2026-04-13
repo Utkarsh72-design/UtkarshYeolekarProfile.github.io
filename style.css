@@ -208,6 +208,40 @@ main {
   color: #475569;
 }
 
+.site-footer {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+.site-footer-inner {
+  background: #0f172a;
+  color: #cbd5e1;
+  padding: 22px 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: #93c5fd;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
 a {
   color: inherit;
 }
@@ -258,5 +292,13 @@ a {
   .hero-card {
     padding: 22px;
     border-radius: 18px;
+  }
+
+  .site-footer {
+    padding: 0 20px 28px;
+  }
+
+  .site-footer-inner {
+    padding: 18px 20px;
   }
 }
