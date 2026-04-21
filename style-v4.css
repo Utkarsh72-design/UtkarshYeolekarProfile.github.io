@@ -84,23 +84,9 @@ nav {
   opacity: 0.9;
 }
 
-.brand-first {
-  display: inline-block;
-  font-family: 'Sora', 'Inter', Arial, sans-serif;
-  font-size: 1.34rem;
-  font-weight: 700;
-  letter-spacing: -0.055em;
-  text-transform: none;
-  color: var(--text-white);
-  line-height: 1;
-  margin-left: 0;
-  text-shadow:
-    0 0 12px rgba(115, 167, 255, 0.14),
-    0 0 20px rgba(255, 127, 216, 0.08);
-}
-
+.brand-first,
 .brand-last {
-  position: relative;
+  display: inline-block;
   font-family: 'Sora', 'Inter', Arial, sans-serif;
   font-size: 1.34rem;
   font-weight: 700;
@@ -386,6 +372,28 @@ main {
 
 .expand-button:hover {
   opacity: 0.92;
+}
+
+.project-menu-link {
+  display: block;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #334155;
+  padding: 8px 10px;
+  border-radius: 10px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.project-menu-link:hover {
+  background: rgba(115, 167, 255, 0.08);
+  color: #0f172a;
+}
+
+.project-link-active {
+  background: linear-gradient(135deg, rgba(115,167,255,0.18), rgba(255,127,216,0.12));
+  color: #0f172a;
+  font-weight: 700;
 }
 
 #image-lightbox {
