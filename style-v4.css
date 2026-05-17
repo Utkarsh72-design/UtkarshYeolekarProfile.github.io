@@ -468,6 +468,18 @@ main {
   color: #334155;
 }
 
+.work-layout {
+  display: grid;
+  grid-template-columns: 300px minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.portfolio-sidebar {
+  position: sticky;
+  top: 96px;
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -480,6 +492,11 @@ main {
   border-radius: 22px;
   box-shadow: var(--shadow-soft);
   backdrop-filter: blur(8px);
+  min-width: 0;
+}
+
+.info-card h2 {
+  overflow-wrap: anywhere;
 }
 
 .info-card h3 {
@@ -490,11 +507,13 @@ main {
   font-weight: 700;
   letter-spacing: -0.03em;
   color: var(--text-dark);
+  overflow-wrap: anywhere;
 }
 
 .info-card p {
   margin: 0;
   color: var(--text-mid);
+  overflow-wrap: anywhere;
 }
 
 .image-card {
@@ -531,9 +550,12 @@ main {
   font-size: 0.9rem;
   font-weight: 500;
   color: #334155;
-  padding: 8px 10px;
-  border-radius: 10px;
-  transition: background 0.2s ease, color 0.2s ease;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
 }
 
 .project-menu-link:hover {
@@ -545,6 +567,7 @@ main {
   background: linear-gradient(135deg, rgba(115,167,255,0.18), rgba(255,127,216,0.12));
   color: #0f172a;
   font-weight: 700;
+  border-color: rgba(115,167,255,0.28);
 }
 
 #image-lightbox {
@@ -643,6 +666,72 @@ a {
   color: inherit;
 }
 
+.panel-eyebrow {
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.panel-title {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.panel-subtitle {
+  margin-bottom: 18px;
+  color: #334155;
+}
+
+.panel-mb {
+  margin-bottom: 20px;
+}
+
+.panel-copy {
+  margin-bottom: 18px !important;
+}
+
+.panel-copy-last {
+  margin-bottom: 22px !important;
+}
+
+.full-width-image {
+  width: 100%;
+  margin-top: 16px;
+  border-radius: 16px;
+  display: block;
+  height: auto;
+}
+
+.pdf-frame {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.pdf-tall {
+  height: 900px;
+}
+
+.pdf-medium {
+  height: 950px;
+}
+
+.pdf-fallback {
+  margin-top: 14px !important;
+}
+
+@media (max-width: 1100px) {
+  .work-layout {
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 20px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 900px) {
   body {
     background:
@@ -665,13 +754,31 @@ a {
     font-size: 2.7rem;
   }
 
+  .work-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-sidebar {
+    position: static;
+    top: auto;
+  }
+
   .cards-grid {
     grid-template-columns: 1fr;
+    gap: 16px;
   }
 
   .client-logo-card {
     width: 140px;
     height: 66px;
+  }
+
+  .pdf-tall {
+    height: 650px;
+  }
+
+  .pdf-medium {
+    height: 650px;
   }
 }
 
@@ -766,5 +873,59 @@ a {
   .lightbox-close {
     top: -10px;
     right: -4px;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero h1 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .hero-copy,
+  .section-intro p,
+  .info-card p,
+  .project-menu-link {
+    font-size: 0.95rem;
+  }
+
+  .info-card {
+    padding: 16px;
+  }
+
+  .project-menu-link {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .pdf-tall {
+    height: 480px;
+  }
+
+  .pdf-medium {
+    height: 480px;
+  }
+
+  .site-footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 420px) {
+  .hero h1 {
+    font-size: 1.55rem;
+  }
+
+  .info-card {
+    padding: 14px;
+  }
+
+  .pdf-tall {
+    height: 420px;
+  }
+
+  .pdf-medium {
+    height: 420px;
   }
 }
