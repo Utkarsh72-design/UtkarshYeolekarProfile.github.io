@@ -6,7 +6,7 @@
   <title>Work | Utkarsh Yeolekar</title>
   <link rel="stylesheet" href="style-v4.css" />
 </head>
-<body>
+<body class="work-page">
   <nav>
     <div class="nav-container">
       <a href="index.html" class="brand brand-stack">
@@ -79,11 +79,11 @@
 
     <section class="work-layout">
       <aside class="info-card portfolio-sidebar">
-        <h3 style="margin-bottom: 16px;">Portfolio Menu</h3>
+        <h3 class="sidebar-title">Portfolio Menu</h3>
 
-        <details open style="margin-bottom: 14px;">
-          <summary style="cursor: pointer; font-weight: 700;">Projects</summary>
-          <div style="margin-top: 12px; display: grid; gap: 8px;">
+        <details open class="menu-group">
+          <summary>Projects</summary>
+          <div class="menu-links">
             <a href="#" class="project-menu-link project-link-active" data-project-target="pmei-project">PMEI - Partner Marketing Execution Insights</a>
             <a href="#" class="project-menu-link" data-project-target="channel-project">Channel Intelligence : OEM vs Reseller vs Retailers</a>
             <a href="#" class="project-menu-link" data-project-target="pricing-project">Global Retailers Real Time Price Tracking &amp; Analysis</a>
@@ -92,326 +92,145 @@
           </div>
         </details>
 
-        <details style="margin-bottom: 14px;">
-          <summary style="cursor: pointer; font-weight: 700;">Solution Building / Consulting</summary>
-          <div style="margin-top: 12px; display: grid; gap: 8px;">
+        <details class="menu-group">
+          <summary>Solution Building / Consulting</summary>
+          <div class="menu-links">
             <a href="#" class="project-menu-link" data-project-target="ip-platform-project">IP Led Platform Development - GenAI Based</a>
             <a href="#" class="project-menu-link" data-project-target="quick-commerce-shelf-project">E-commerce/Quick-commerce - Dynamic Digital Shelf Comp Set Analysis</a>
           </div>
         </details>
 
-        <details style="margin-bottom: 14px;">
-          <summary style="cursor: pointer; font-weight: 700;">Case Studies</summary>
-          <div style="margin-top: 12px; display: grid; gap: 8px;">
+        <details class="menu-group">
+          <summary>Case Studies</summary>
+          <div class="menu-links">
             <a href="#" class="project-menu-link" data-project-target="copilotiq-case-study">C5i Ideathon - Co-pilotIQ</a>
             <a href="#" class="project-menu-link" data-project-target="abinbev-case-study">ABInBev - 100+ Challenge</a>
           </div>
         </details>
 
-        <details>
-          <summary style="cursor: pointer; font-weight: 700;">Newsletters</summary>
-          <div style="margin-top: 12px; display: grid; gap: 8px;">
+        <details class="menu-group">
+          <summary>Newsletters</summary>
+          <div class="menu-links">
             <a href="#" class="project-menu-link" data-project-target="ecommerce-seasonal-showdown">E-commerce Seasonal Showdown</a>
             <a href="#" class="project-menu-link" data-project-target="digital-shopper-journey-fortnightly">Digital Shopper Journey Fortnightly</a>
           </div>
         </details>
       </aside>
 
-      <div>
-        <section class="info-card" data-project-panel="pmei-project" style="margin-bottom: 24px;">
+      <div class="work-content">
+        <section class="info-card panel-card" data-project-panel="pmei-project">
           <p class="eyebrow panel-eyebrow">Project 01</p>
           <h2 class="panel-title">PMEI - Partner Marketing Execution Insights</h2>
           <p class="panel-subtitle">Shopper Journey &amp; Experience Tracker</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Role</h3>
-              <p>Project Manager (Team Lead)</p>
-            </article>
-            <article class="info-card">
-              <h3>Users</h3>
-              <p>Microsoft partner marketing, category, and analytics stakeholders</p>
-            </article>
-            <article class="info-card">
-              <h3>Ownership</h3>
-              <p>End-to-end ownership from data crawl to front-end development, QC, and client-facing POC management</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Annual revenue of $900K</p>
-            </article>
+            <article class="info-card"><h3>Role</h3><p>Project Manager (Team Lead)</p></article>
+            <article class="info-card"><h3>Users</h3><p>Microsoft partner marketing, category, and analytics stakeholders</p></article>
+            <article class="info-card"><h3>Ownership</h3><p>End-to-end ownership from data crawl to front-end development, QC, and client-facing POC management</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Annual revenue of $900K</p></article>
           </div>
 
-          <p class="panel-copy">
-            PMEI provides a unified, data-driven view of OEM shopper journey, digital performance,
-            and experience signals. Built on the C5i Compete platform and tailored for Microsoft,
-            it helps users move from executive snapshot to deeper OEM, country, and SKU-level analysis.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The platform combines executive KPI readouts with structured drilldowns across shopper
-            journey, digital performance, ratings and reviews, influencer tracking, and GenAI-based insights.
-          </p>
+          <p class="panel-copy">PMEI provides a unified, data-driven view of OEM shopper journey, digital performance, and experience signals. Built on the C5i Compete platform and tailored for Microsoft, it helps users move from executive snapshot to deeper OEM, country, and SKU-level analysis.</p>
+          <p class="panel-copy panel-copy-last">The platform combines executive KPI readouts with structured drilldowns across shopper journey, digital performance, ratings and reviews, influencer tracking, and GenAI-based insights.</p>
 
           <div class="cards-grid">
-            <article class="info-card image-card">
-              <h3>Executive Summary</h3>
-              <p>Quick read on clicks to purchase, digital performance, ratings and reviews, and social media snapshot.</p>
-              <img src="assets/images/pmei/PMEI%201.png" alt="PMEI Executive Summary" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%201.png" data-image-alt="PMEI Executive Summary">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Digital Performance</h3>
-              <p>Benchmark OEM and country-level website performance and evaluate how the consumer journey is performing.</p>
-              <img src="assets/images/pmei/PMEI%202.png" alt="PMEI Digital Performance" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%202.png" data-image-alt="PMEI Digital Performance">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Ratings &amp; Reviews</h3>
-              <p>Monitor review volume and sentiment mix to understand consumer perception at a glance.</p>
-              <img src="assets/images/pmei/PMEI%203.png" alt="PMEI Ratings and Reviews" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%203.png" data-image-alt="PMEI Ratings and Reviews">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>SKU Analysis</h3>
-              <p>SKU-level view of digital journey performance and product-level analysis across each shopper stage.</p>
-              <img src="assets/images/pmei/PMEI%204.png" alt="PMEI SKU Analysis" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%204.png" data-image-alt="PMEI SKU Analysis">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Influencer Tracking</h3>
-              <p>Review influencer presence and themes such as AI readiness, productivity, reliability, and security.</p>
-              <img src="assets/images/pmei/PMEI%205.png" alt="PMEI Influencer Tracking" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%205.png" data-image-alt="PMEI Influencer Tracking">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>GenAI Insights</h3>
-              <p>AI-generated insights on OEM websites, highlighting strengths, weaknesses, and newsfeed updates.</p>
-              <img src="assets/images/pmei/PMEI%206.png" alt="PMEI Insights" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%206.png" data-image-alt="PMEI Insights">Expand</button>
-            </article>
+            <article class="info-card image-card"><h3>Executive Summary</h3><p>Quick read on clicks to purchase, digital performance, ratings and reviews, and social media snapshot.</p><img src="assets/images/pmei/PMEI%201.png" alt="PMEI Executive Summary" /><button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%201.png" data-image-alt="PMEI Executive Summary">Expand</button></article>
+            <article class="info-card image-card"><h3>Digital Performance</h3><p>Benchmark OEM and country-level website performance and evaluate how the consumer journey is performing.</p><img src="assets/images/pmei/PMEI%202.png" alt="PMEI Digital Performance" /><button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%202.png" data-image-alt="PMEI Digital Performance">Expand</button></article>
+            <article class="info-card image-card"><h3>Ratings &amp; Reviews</h3><p>Monitor review volume and sentiment mix to understand consumer perception at a glance.</p><img src="assets/images/pmei/PMEI%203.png" alt="PMEI Ratings and Reviews" /><button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%203.png" data-image-alt="PMEI Ratings and Reviews">Expand</button></article>
+            <article class="info-card image-card"><h3>SKU Analysis</h3><p>SKU-level view of digital journey performance and product-level analysis across each shopper stage.</p><img src="assets/images/pmei/PMEI%204.png" alt="PMEI SKU Analysis" /><button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%204.png" data-image-alt="PMEI SKU Analysis">Expand</button></article>
+            <article class="info-card image-card"><h3>Influencer Tracking</h3><p>Review influencer presence and themes such as AI readiness, productivity, reliability, and security.</p><img src="assets/images/pmei/PMEI%205.png" alt="PMEI Influencer Tracking" /><button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%205.png" data-image-alt="PMEI Influencer Tracking">Expand</button></article>
+            <article class="info-card image-card"><h3>GenAI Insights</h3><p>AI-generated insights on OEM websites, highlighting strengths, weaknesses, and newsfeed updates.</p><img src="assets/images/pmei/PMEI%206.png" alt="PMEI Insights" /><button class="expand-button" data-expand-image data-image-src="assets/images/pmei/PMEI%206.png" data-image-alt="PMEI Insights">Expand</button></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="channel-project" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="channel-project">
           <p class="eyebrow panel-eyebrow">Project 02</p>
           <h2 class="panel-title">Channel Intelligence : OEM vs Reseller vs Retailers</h2>
           <p class="panel-subtitle">Channel comparison dashboard, Apple-anchored benchmark view, and SKU-level drilldown</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Role</h3>
-              <p>Project Manager (Team Lead)</p>
-            </article>
-            <article class="info-card">
-              <h3>Users</h3>
-              <p>Microsoft marketing executives, category managers, and decision makers</p>
-            </article>
-            <article class="info-card">
-              <h3>Ownership</h3>
-              <p>End-to-end ownership from project scoping to front-end development, QC, client-forward delivery, and P&amp;L management</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Annual revenue of $600K</p>
-            </article>
+            <article class="info-card"><h3>Role</h3><p>Project Manager (Team Lead)</p></article>
+            <article class="info-card"><h3>Users</h3><p>Microsoft marketing executives, category managers, and decision makers</p></article>
+            <article class="info-card"><h3>Ownership</h3><p>End-to-end ownership from project scoping to front-end development, QC, client-forward delivery, and P&amp;L management</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Annual revenue of $600K</p></article>
           </div>
 
-          <p class="panel-copy">
-            This project tracks laptop prices, availability, and SKU variations across laptop aggregators and compares how OEM websites,
-            reseller websites, and retailer websites are selling the same products.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The reporting is built on channel intelligence, where OEM products are anchored and benchmarked against Apple products
-            using Apple-equivalent SKU mapping across MacBook families.
-          </p>
+          <p class="panel-copy">This project tracks laptop prices, availability, and SKU variations across laptop aggregators and compares how OEM websites, reseller websites, and retailer websites are selling the same products.</p>
+          <p class="panel-copy panel-copy-last">The reporting is built on channel intelligence, where OEM products are anchored and benchmarked against Apple products using Apple-equivalent SKU mapping across MacBook families.</p>
 
           <div class="cards-grid">
-            <article class="info-card image-card">
-              <h3>Channel Comparison Dashboard</h3>
-              <p>Compare pricing, availability, and channel behavior across OEMs, resellers, and retailers.</p>
-              <img src="assets/images/channel-intelligence/RRO%201.png" alt="Channel Comparison Dashboard" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/channel-intelligence/RRO%201.png" data-image-alt="Channel Comparison Dashboard">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Apple-anchored Benchmark View</h3>
-              <p>Benchmark OEM portfolios against Apple families through mapped competitive equivalents.</p>
-              <img src="assets/images/channel-intelligence/RRO%202.png" alt="Apple-anchored Benchmark View" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/channel-intelligence/RRO%202.png" data-image-alt="Apple-anchored Benchmark View">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>SKU-level Drilldown</h3>
-              <p>Analyze SKU-level pricing, assortment, and availability variation by channel and product family.</p>
-              <img src="assets/images/channel-intelligence/RRO%203.png" alt="SKU-level Drilldown" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/channel-intelligence/RRO%203.png" data-image-alt="SKU-level Drilldown">Expand</button>
-            </article>
+            <article class="info-card image-card"><h3>Channel Comparison Dashboard</h3><p>Compare pricing, availability, and channel behavior across OEMs, resellers, and retailers.</p><img src="assets/images/channel-intelligence/RRO%201.png" alt="Channel Comparison Dashboard" /><button class="expand-button" data-expand-image data-image-src="assets/images/channel-intelligence/RRO%201.png" data-image-alt="Channel Comparison Dashboard">Expand</button></article>
+            <article class="info-card image-card"><h3>Apple-anchored Benchmark View</h3><p>Benchmark OEM portfolios against Apple families through mapped competitive equivalents.</p><img src="assets/images/channel-intelligence/RRO%202.png" alt="Apple-anchored Benchmark View" /><button class="expand-button" data-expand-image data-image-src="assets/images/channel-intelligence/RRO%202.png" data-image-alt="Apple-anchored Benchmark View">Expand</button></article>
+            <article class="info-card image-card"><h3>SKU-level Drilldown</h3><p>Analyze SKU-level pricing, assortment, and availability variation by channel and product family.</p><img src="assets/images/channel-intelligence/RRO%203.png" alt="SKU-level Drilldown" /><button class="expand-button" data-expand-image data-image-src="assets/images/channel-intelligence/RRO%203.png" data-image-alt="SKU-level Drilldown">Expand</button></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="pricing-project" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="pricing-project">
           <p class="eyebrow panel-eyebrow">Project 03</p>
           <h2 class="panel-title">Global Retailers Real Time Price Tracking &amp; Analysis</h2>
           <p class="panel-subtitle">Real-time reactive price tracking and analysis across global retailers</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Role</h3>
-              <p>Project Manager (Team Lead)</p>
-            </article>
-            <article class="info-card">
-              <h3>Users</h3>
-              <p>Global category managers</p>
-            </article>
-            <article class="info-card">
-              <h3>Ownership</h3>
-              <p>End-to-end ownership from data crawl to front-end development, QC, and client-facing POC management</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Annual revenue of $590K</p>
-            </article>
+            <article class="info-card"><h3>Role</h3><p>Project Manager (Team Lead)</p></article>
+            <article class="info-card"><h3>Users</h3><p>Global category managers</p></article>
+            <article class="info-card"><h3>Ownership</h3><p>End-to-end ownership from data crawl to front-end development, QC, and client-facing POC management</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Annual revenue of $590K</p></article>
           </div>
 
-          <p class="panel-copy">
-            The price tracking project monitors more than 5K SKUs across four regions — EMEA, NA, AU, and JP —
-            covering 77 retailers. It tracks direct seller versus third-party prices, PDP prices, and in-cart prices.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            Tracking runs twice a day, every day, enabling continuous views on price and stock status along with
-            analysis, alerts, and actionable insights from daily movement across retailers and regions.
-          </p>
+          <p class="panel-copy">The price tracking project monitors more than 5K SKUs across four regions — EMEA, NA, AU, and JP — covering 77 retailers. It tracks direct seller versus third-party prices, PDP prices, and in-cart prices.</p>
+          <p class="panel-copy panel-copy-last">Tracking runs twice a day, every day, enabling continuous views on price and stock status along with analysis, alerts, and actionable insights from daily movement across retailers and regions.</p>
 
           <div class="cards-grid">
-            <article class="info-card image-card">
-              <h3>Executive Summary</h3>
-              <p>High-level view of price, stock status, and core retailer tracking KPIs.</p>
-              <img src="assets/images/global-retailers-price-tracking/Pricing%201.png" alt="Pricing Executive Summary" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/global-retailers-price-tracking/Pricing%201.png" data-image-alt="Pricing Executive Summary">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Price Analytics View</h3>
-              <p>Drilldown into retailer pricing patterns, comparisons, and daily movement analysis.</p>
-              <img src="assets/images/global-retailers-price-tracking/Pricing%202.png" alt="Pricing Analytics View" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/global-retailers-price-tracking/Pricing%202.png" data-image-alt="Pricing Analytics View">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Availability &amp; SKU Drilldown</h3>
-              <p>SKU-level view of availability and stock tracking across retailers and regions.</p>
-              <img src="assets/images/global-retailers-price-tracking/Pricing%203.png" alt="Pricing Availability and SKU Drilldown" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/global-retailers-price-tracking/Pricing%203.png" data-image-alt="Pricing Availability and SKU Drilldown">Expand</button>
-            </article>
+            <article class="info-card image-card"><h3>Executive Summary</h3><p>High-level view of price, stock status, and core retailer tracking KPIs.</p><img src="assets/images/global-retailers-price-tracking/Pricing%201.png" alt="Pricing Executive Summary" /><button class="expand-button" data-expand-image data-image-src="assets/images/global-retailers-price-tracking/Pricing%201.png" data-image-alt="Pricing Executive Summary">Expand</button></article>
+            <article class="info-card image-card"><h3>Price Analytics View</h3><p>Drilldown into retailer pricing patterns, comparisons, and daily movement analysis.</p><img src="assets/images/global-retailers-price-tracking/Pricing%202.png" alt="Pricing Analytics View" /><button class="expand-button" data-expand-image data-image-src="assets/images/global-retailers-price-tracking/Pricing%202.png" data-image-alt="Pricing Analytics View">Expand</button></article>
+            <article class="info-card image-card"><h3>Availability &amp; SKU Drilldown</h3><p>SKU-level view of availability and stock tracking across retailers and regions.</p><img src="assets/images/global-retailers-price-tracking/Pricing%203.png" alt="Pricing Availability and SKU Drilldown" /><button class="expand-button" data-expand-image data-image-src="assets/images/global-retailers-price-tracking/Pricing%203.png" data-image-alt="Pricing Availability and SKU Drilldown">Expand</button></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="sentiment-project" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="sentiment-project">
           <p class="eyebrow panel-eyebrow">Project 04</p>
           <h2 class="panel-title">LLM Based Social Media Sentiment Tracking</h2>
           <p class="panel-subtitle">Executive dashboard, sentiment drilldown, and content-level promotion tracking</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Role</h3>
-              <p>Project Manager (Team Lead)</p>
-            </article>
-            <article class="info-card">
-              <h3>Users</h3>
-              <p>Microsoft marketing executives, category managers, and decision makers</p>
-            </article>
-            <article class="info-card">
-              <h3>Ownership</h3>
-              <p>End-to-end ownership from data crawl to front-end development, QC, client-forward delivery, and P&amp;L management</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Annual revenue of $250K</p>
-            </article>
+            <article class="info-card"><h3>Role</h3><p>Project Manager (Team Lead)</p></article>
+            <article class="info-card"><h3>Users</h3><p>Microsoft marketing executives, category managers, and decision makers</p></article>
+            <article class="info-card"><h3>Ownership</h3><p>End-to-end ownership from data crawl to front-end development, QC, client-forward delivery, and P&amp;L management</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Annual revenue of $250K</p></article>
           </div>
 
-          <p class="panel-copy">
-            This analysis uses LLM and GenAI methods to capture the real-time pulse of social sentiment related to the tech industry
-            across global regions. It helps track sentiment around launches, offers, promotions, and broader marketing activity.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The platform helps identify what marketing is working, where improvement is required, and which launches or promotions
-            are acting as conversation pullers. It is highly customizable based on the client’s chosen industry and segment focus.
-          </p>
+          <p class="panel-copy">This analysis uses LLM and GenAI methods to capture the real-time pulse of social sentiment related to the tech industry across global regions. It helps track sentiment around launches, offers, promotions, and broader marketing activity.</p>
+          <p class="panel-copy panel-copy-last">The platform helps identify what marketing is working, where improvement is required, and which launches or promotions are acting as conversation pullers. It is highly customizable based on the client’s chosen industry and segment focus.</p>
 
           <div class="cards-grid">
-            <article class="info-card image-card">
-              <h3>Executive Dashboard</h3>
-              <p>High-level view of platform sentiment, content themes, and topline social signal tracking.</p>
-              <img src="assets/images/llm-social-sentiment/Sentiment%201.png" alt="LLM Social Sentiment Executive Dashboard" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/llm-social-sentiment/Sentiment%201.png" data-image-alt="LLM Social Sentiment Executive Dashboard">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Sentiment Drilldown</h3>
-              <p>Detailed view into sentiment shifts, content themes, and category-level signal breakdown.</p>
-              <img src="assets/images/llm-social-sentiment/Sentiment%202.png" alt="LLM Social Sentiment Drilldown" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/llm-social-sentiment/Sentiment%202.png" data-image-alt="LLM Social Sentiment Drilldown">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>Content-level Promotion Tracking</h3>
-              <p>Track which launches, offers, and promotions are driving conversation and engagement.</p>
-              <img src="assets/images/llm-social-sentiment/Sentiment%203.png" alt="LLM Content-level Promotion Tracking" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/llm-social-sentiment/Sentiment%203.png" data-image-alt="LLM Content-level Promotion Tracking">Expand</button>
-            </article>
+            <article class="info-card image-card"><h3>Executive Dashboard</h3><p>High-level view of platform sentiment, content themes, and topline social signal tracking.</p><img src="assets/images/llm-social-sentiment/Sentiment%201.png" alt="LLM Social Sentiment Executive Dashboard" /><button class="expand-button" data-expand-image data-image-src="assets/images/llm-social-sentiment/Sentiment%201.png" data-image-alt="LLM Social Sentiment Executive Dashboard">Expand</button></article>
+            <article class="info-card image-card"><h3>Sentiment Drilldown</h3><p>Detailed view into sentiment shifts, content themes, and category-level signal breakdown.</p><img src="assets/images/llm-social-sentiment/Sentiment%202.png" alt="LLM Social Sentiment Drilldown" /><button class="expand-button" data-expand-image data-image-src="assets/images/llm-social-sentiment/Sentiment%202.png" data-image-alt="LLM Social Sentiment Drilldown">Expand</button></article>
+            <article class="info-card image-card"><h3>Content-level Promotion Tracking</h3><p>Track which launches, offers, and promotions are driving conversation and engagement.</p><img src="assets/images/llm-social-sentiment/Sentiment%203.png" alt="LLM Content-level Promotion Tracking" /><button class="expand-button" data-expand-image data-image-src="assets/images/llm-social-sentiment/Sentiment%203.png" data-image-alt="LLM Content-level Promotion Tracking">Expand</button></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="offers-project" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="offers-project">
           <p class="eyebrow panel-eyebrow">Project 05</p>
           <h2 class="panel-title">OEM Digital Promotions/Offer Tracking &amp; Analysis</h2>
           <p class="panel-subtitle">Offer execution dashboard and SKU-level offer validation</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Role</h3>
-              <p>Project Manager (Team Lead)</p>
-            </article>
-            <article class="info-card">
-              <h3>Users</h3>
-              <p>Global category managers</p>
-            </article>
-            <article class="info-card">
-              <h3>Ownership</h3>
-              <p>End-to-end ownership from data crawl to front-end development, QC, and client-facing POC management</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Annual revenue of $150K</p>
-            </article>
+            <article class="info-card"><h3>Role</h3><p>Project Manager (Team Lead)</p></article>
+            <article class="info-card"><h3>Users</h3><p>Global category managers</p></article>
+            <article class="info-card"><h3>Ownership</h3><p>End-to-end ownership from data crawl to front-end development, QC, and client-facing POC management</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Annual revenue of $150K</p></article>
           </div>
 
-          <p class="panel-copy">
-            This project tracks weekly updates of offers executed by OEMs with 29 retailers across NA, EMEA,
-            LATAM, and Asia. Real-time screenshots are captured as proof of execution by crawling PDP and in-cart pages.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            Promotions range from seasonal category-wide offers to one-day sale promos. Offer data is matched with extracted
-            selling prices to validate rebates, quantify units sold under each offer, and evaluate ROI and promotion effectiveness.
-          </p>
+          <p class="panel-copy">This project tracks weekly updates of offers executed by OEMs with 29 retailers across NA, EMEA, LATAM, and Asia. Real-time screenshots are captured as proof of execution by crawling PDP and in-cart pages.</p>
+          <p class="panel-copy panel-copy-last">Promotions range from seasonal category-wide offers to one-day sale promos. Offer data is matched with extracted selling prices to validate rebates, quantify units sold under each offer, and evaluate ROI and promotion effectiveness.</p>
 
           <div class="cards-grid">
-            <article class="info-card image-card">
-              <h3>Offer Execution Dashboard</h3>
-              <p>Track real-time promotion execution across OEMs, retailers, and offer types.</p>
-              <img src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%201.png" alt="OEM Offer Execution Dashboard" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%201.png" data-image-alt="OEM Offer Execution Dashboard">Expand</button>
-            </article>
-            <article class="info-card image-card">
-              <h3>SKU-level Offer Validation</h3>
-              <p>Validate offer execution, rebates, and SKU-level linkage against tracked pricing and payouts.</p>
-              <img src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%202.png" alt="OEM SKU-level Offer Validation" />
-              <button class="expand-button" data-expand-image data-image-src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%202.png" data-image-alt="OEM SKU-level Offer Validation">Expand</button>
-            </article>
+            <article class="info-card image-card"><h3>Offer Execution Dashboard</h3><p>Track real-time promotion execution across OEMs, retailers, and offer types.</p><img src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%201.png" alt="OEM Offer Execution Dashboard" /><button class="expand-button" data-expand-image data-image-src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%201.png" data-image-alt="OEM Offer Execution Dashboard">Expand</button></article>
+            <article class="info-card image-card"><h3>SKU-level Offer Validation</h3><p>Validate offer execution, rebates, and SKU-level linkage against tracked pricing and payouts.</p><img src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%202.png" alt="OEM SKU-level Offer Validation" /><button class="expand-button" data-expand-image data-image-src="assets/images/oem-digital-promotions/OEM%20Offer%20Tracking%202.png" data-image-alt="OEM SKU-level Offer Validation">Expand</button></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="ip-platform-project" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="ip-platform-project">
           <p class="eyebrow panel-eyebrow">Solution 01</p>
           <h2 class="panel-title">IP Led Platform Development - GenAI Based</h2>
           <p class="panel-subtitle">Discovery platform capability building and proposed solution architecture</p>
@@ -425,248 +244,123 @@
             <p>5. Existing insight workflows do not consistently create measurable top-line and bottom-line business impact.</p>
           </div>
 
-          <div style="display: grid; gap: 24px;">
-            <article class="info-card">
-              <h3>Proposed Solutions</h3>
-              <img src="assets/images/ip-led-platform-development/ip1.png" alt="Discovery Building Blocks" class="full-width-image" />
-            </article>
-
-            <article class="info-card">
-              <h3>Course5 Discovery Platform Features</h3>
-              <img src="assets/images/ip-led-platform-development/ip2.png" alt="Course5 Discovery Platform Features" class="full-width-image" />
-            </article>
-
-            <article class="info-card">
-              <h3>Case-led Business Impact Example</h3>
-              <img src="assets/images/ip-led-platform-development/ip3.png" alt="Case-led Business Impact Example" class="full-width-image" />
-            </article>
+          <div class="stack-grid">
+            <article class="info-card"><h3>Proposed Solutions</h3><img src="assets/images/ip-led-platform-development/ip1.png" alt="Discovery Building Blocks" class="full-width-image" /></article>
+            <article class="info-card"><h3>Course5 Discovery Platform Features</h3><img src="assets/images/ip-led-platform-development/ip2.png" alt="Course5 Discovery Platform Features" class="full-width-image" /></article>
+            <article class="info-card"><h3>Case-led Business Impact Example</h3><img src="assets/images/ip-led-platform-development/ip3.png" alt="Case-led Business Impact Example" class="full-width-image" /></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="quick-commerce-shelf-project" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="quick-commerce-shelf-project">
           <p class="eyebrow panel-eyebrow">Solution 02</p>
           <h2 class="panel-title">E-commerce/Quick-commerce - Dynamic Digital Shelf Comp Set Analysis</h2>
           <p class="panel-subtitle">Executive quick-commerce shelf intelligence across pricing, EDLP, banners, ratings, and assortment</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Business Problem</h3>
-              <p>Quick-commerce platforms change pricing, stock visibility, banner messaging, ratings signals, and assortment depth very frequently, making it difficult for teams to track who is winning the shelf in real time and where action is needed.</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Built to help category, pricing, and digital commerce stakeholders quickly identify platform leadership, shelf risks, promotional pressure, and assortment gaps, enabling faster intervention and sharper channel decisions.</p>
-            </article>
+            <article class="info-card"><h3>Business Problem</h3><p>Quick-commerce platforms change pricing, stock visibility, banner messaging, ratings signals, and assortment depth very frequently, making it difficult for teams to track who is winning the shelf in real time and where action is needed.</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Built to help category, pricing, and digital commerce stakeholders quickly identify platform leadership, shelf risks, promotional pressure, and assortment gaps, enabling faster intervention and sharper channel decisions.</p></article>
           </div>
 
-          <p class="panel-copy">
-            A consulting-led executive HTML dashboard concept designed to benchmark Blinkit, Zepto, Amazon Now, and BigBasket across digital shelf performance. The solution brings together price index, EDLP leadership, stock health, banner visibility, ratings and reviews, assortment breadth, and GenAI-led narrative insights into one decision-ready interface.
-          </p>
+          <p class="panel-copy">A consulting-led executive HTML dashboard concept designed to benchmark Blinkit, Zepto, Amazon Now, and BigBasket across digital shelf performance. The solution brings together price index, EDLP leadership, stock health, banner visibility, ratings and reviews, assortment breadth, and GenAI-led narrative insights into one decision-ready interface.</p>
+          <p class="panel-copy panel-copy-last">This solution was designed to simplify quick-commerce competitive benchmarking through a structured digital shelf view. It helps users compare platforms across executive KPIs, price movement, EDLP strength, banner messaging, stock consistency, shopper trust signals, and assortment depth. The addition of GenAI shelf insights turns the dashboard from a reporting layer into a decision-support tool by surfacing the most important commercial signals in simple business language.</p>
 
-          <p class="panel-copy panel-copy-last">
-            This solution was designed to simplify quick-commerce competitive benchmarking through a structured digital shelf view. It helps users compare platforms across executive KPIs, price movement, EDLP strength, banner messaging, stock consistency, shopper trust signals, and assortment depth. The addition of GenAI shelf insights turns the dashboard from a reporting layer into a decision-support tool by surfacing the most important commercial signals in simple business language.
-          </p>
-
-          <div style="display: grid; gap: 24px;">
-            <article class="info-card">
-              <h3>Executive Overview</h3>
-              <img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC1.png" alt="Quick-commerce Executive Overview" class="full-width-image" />
-            </article>
-
-            <article class="info-card">
-              <h3>Price Trend &amp; EDLP Share</h3>
-              <img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC2.png" alt="Quick-commerce Price Trend and EDLP Share" class="full-width-image" />
-            </article>
-
-            <article class="info-card">
-              <h3>Banner + Price/Stock Comparison</h3>
-              <img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC3.png" alt="Quick-commerce Banner and Price Stock Comparison" class="full-width-image" />
-            </article>
-
-            <article class="info-card">
-              <h3>Ratings &amp; Reviews + GenAI Shelf Insights</h3>
-              <img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC4.png" alt="Quick-commerce Ratings Reviews and GenAI Shelf Insights" class="full-width-image" />
-            </article>
+          <div class="stack-grid">
+            <article class="info-card"><h3>Executive Overview</h3><img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC1.png" alt="Quick-commerce Executive Overview" class="full-width-image" /></article>
+            <article class="info-card"><h3>Price Trend &amp; EDLP Share</h3><img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC2.png" alt="Quick-commerce Price Trend and EDLP Share" class="full-width-image" /></article>
+            <article class="info-card"><h3>Banner + Price/Stock Comparison</h3><img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC3.png" alt="Quick-commerce Banner and Price Stock Comparison" class="full-width-image" /></article>
+            <article class="info-card"><h3>Ratings &amp; Reviews + GenAI Shelf Insights</h3><img src="assets/images/Quick-commerce - Dynamic Digital Shelf/QC4.png" alt="Quick-commerce Ratings Reviews and GenAI Shelf Insights" class="full-width-image" /></article>
           </div>
         </section>
 
-        <section class="info-card" data-project-panel="copilotiq-case-study" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="copilotiq-case-study">
           <p class="eyebrow panel-eyebrow">Case Study 01</p>
           <h2 class="panel-title">C5i Ideathon - Co-pilotIQ</h2>
           <p class="panel-subtitle">Proactive intelligence for adaptive workflows and foresighted decisions</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Business Problem</h3>
-              <p>Enterprise workflows remain static, fragmented, and slow to adapt, limiting real-time decision-making and actionable recommendations.</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Finalist idea in the C5i Ideathon, proposing an AI-led system to improve decision speed, workflow efficiency, scenario planning, and measurable business outcomes.</p>
-            </article>
+            <article class="info-card"><h3>Business Problem</h3><p>Enterprise workflows remain static, fragmented, and slow to adapt, limiting real-time decision-making and actionable recommendations.</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Finalist idea in the C5i Ideathon, proposing an AI-led system to improve decision speed, workflow efficiency, scenario planning, and measurable business outcomes.</p></article>
           </div>
 
-          <p class="panel-copy">
-            Co-pilotIQ was designed as a proactive intelligence layer for enterprise workflows. The concept focused on automated workflow adaptation,
-            predictive analytics for scenario planning, context-aware recommendations, and real-time decision support for complex business environments.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The idea was shortlisted as a finalist in the global C5i Ideathon and positioned as a scalable AI system for decision-makers,
-            operational users, IT teams, and citizen data scientists.
-          </p>
+          <p class="panel-copy">Co-pilotIQ was designed as a proactive intelligence layer for enterprise workflows. The concept focused on automated workflow adaptation, predictive analytics for scenario planning, context-aware recommendations, and real-time decision support for complex business environments.</p>
+          <p class="panel-copy panel-copy-last">The idea was shortlisted as a finalist in the global C5i Ideathon and positioned as a scalable AI system for decision-makers, operational users, IT teams, and citizen data scientists.</p>
 
           <article class="info-card">
             <h3>Case Study Deck</h3>
             <p class="panel-copy-last">View the presentation directly below.</p>
-
             <div class="pdf-frame pdf-tall">
-              <iframe
-                src="assets/case-studies/Ideathon%20-%20CoPilotIQ_Final.pdf#view=FitH"
-                title="C5i Ideathon - Co-pilotIQ Case Study"
-                width="100%"
-                height="100%"
-                style="border: none; display: block;"
-              ></iframe>
+              <iframe src="assets/case-studies/Ideathon%20-%20CoPilotIQ_Final.pdf#view=FitH" title="C5i Ideathon - Co-pilotIQ Case Study" width="100%" height="100%" style="border: none; display: block;"></iframe>
             </div>
-
-            <p class="pdf-fallback">
-              If the embedded viewer does not load in your browser, <a href="assets/case-studies/Ideathon%20-%20CoPilotIQ_Final.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.
-            </p>
+            <p class="pdf-fallback">If the embedded viewer does not load in your browser, <a href="assets/case-studies/Ideathon%20-%20CoPilotIQ_Final.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.</p>
           </article>
         </section>
 
-        <section class="info-card" data-project-panel="abinbev-case-study" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="abinbev-case-study">
           <p class="eyebrow panel-eyebrow">Case Study 02</p>
           <h2 class="panel-title">ABInBev - 100+ Challenge</h2>
           <p class="panel-subtitle">RTD beverage innovation, go-to-market strategy, and sustainability-led growth plan</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>Business Problem</h3>
-              <p>The Indian RTD market showed rising demand, but low availability of low-sugar, low-alcohol, and locally differentiated options for younger consumers.</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Finalist solution for AB InBev’s 100+ Challenge, combining product innovation, phased launch planning, and sustainability-linked business growth.</p>
-            </article>
+            <article class="info-card"><h3>Business Problem</h3><p>The Indian RTD market showed rising demand, but low availability of low-sugar, low-alcohol, and locally differentiated options for younger consumers.</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Finalist solution for AB InBev’s 100+ Challenge, combining product innovation, phased launch planning, and sustainability-linked business growth.</p></article>
           </div>
 
-          <p class="panel-copy">
-            This case study focused on building a differentiated RTD concept for the Indian market by combining consumer research,
-            premiumization trends, local ingredient-led innovation, and a phased city-wise go-to-market strategy.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The solution proposed the brand concept <strong>Oãs</strong>, built around low-sugar, low-alcohol positioning,
-            indigenous flavor combinations, sustainability-led packaging choices, and a long-term commercial growth roadmap.
-          </p>
+          <p class="panel-copy">This case study focused on building a differentiated RTD concept for the Indian market by combining consumer research, premiumization trends, local ingredient-led innovation, and a phased city-wise go-to-market strategy.</p>
+          <p class="panel-copy panel-copy-last">The solution proposed the brand concept <strong>Oãs</strong>, built around low-sugar, low-alcohol positioning, indigenous flavor combinations, sustainability-led packaging choices, and a long-term commercial growth roadmap.</p>
 
           <article class="info-card">
             <h3>Case Study Deck</h3>
             <p class="panel-copy-last">View the presentation directly below.</p>
-
             <div class="pdf-frame pdf-tall">
-              <iframe
-                src="assets/case-studies/Team%20Brewers_FinalPPT.pdf#view=FitH"
-                title="ABInBev - 100+ Challenge Case Study"
-                width="100%"
-                height="100%"
-                style="border: none; display: block;"
-              ></iframe>
+              <iframe src="assets/case-studies/Team%20Brewers_FinalPPT.pdf#view=FitH" title="ABInBev - 100+ Challenge Case Study" width="100%" height="100%" style="border: none; display: block;"></iframe>
             </div>
-
-            <p class="pdf-fallback">
-              If the embedded viewer does not load in your browser, <a href="assets/case-studies/Team%20Brewers_FinalPPT.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.
-            </p>
+            <p class="pdf-fallback">If the embedded viewer does not load in your browser, <a href="assets/case-studies/Team%20Brewers_FinalPPT.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.</p>
           </article>
         </section>
 
-        <section class="info-card" data-project-panel="ecommerce-seasonal-showdown" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="ecommerce-seasonal-showdown">
           <p class="eyebrow panel-eyebrow">Newsletter 01</p>
           <h2 class="panel-title">E-commerce Seasonal Showdown</h2>
           <p class="panel-subtitle">Retail price, promotion, and discount intelligence across leading e-commerce players</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>About</h3>
-              <p>A newsletter format built to compare retailer promotion strategies, discount depth, category competitiveness, and seasonal value signals through sharp, executive-ready storytelling.</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Designed to simplify complex seasonal pricing data into fast, decision-ready reads for commercial and category stakeholders.</p>
-            </article>
+            <article class="info-card"><h3>About</h3><p>A newsletter format built to compare retailer promotion strategies, discount depth, category competitiveness, and seasonal value signals through sharp, executive-ready storytelling.</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Designed to simplify complex seasonal pricing data into fast, decision-ready reads for commercial and category stakeholders.</p></article>
           </div>
 
-          <p class="panel-copy">
-            This edition compares Amazon and Walmart on holiday discount depth, discount coverage, delivery readiness, and category-level savings signals to show where seasonal value is strongest.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The format is built for fast executive consumption, combining headline metrics, category face-offs, and demand-versus-discount framing into a clean retail intelligence story.
-          </p>
+          <p class="panel-copy">This edition compares Amazon and Walmart on holiday discount depth, discount coverage, delivery readiness, and category-level savings signals to show where seasonal value is strongest.</p>
+          <p class="panel-copy panel-copy-last">The format is built for fast executive consumption, combining headline metrics, category face-offs, and demand-versus-discount framing into a clean retail intelligence story.</p>
 
           <article class="info-card">
             <h3>Newsletter PDF</h3>
             <p class="panel-copy-last">View the newsletter directly below.</p>
-
             <div class="pdf-frame pdf-medium">
-              <iframe
-                src="assets/Newsletter/amazon%20vs%20Walmart%20holiday%20pricing.pdf#view=FitH"
-                title="E-commerce Seasonal Showdown Newsletter"
-                width="100%"
-                height="100%"
-                style="border: none; display: block;"
-              ></iframe>
+              <iframe src="assets/Newsletter/amazon%20vs%20Walmart%20holiday%20pricing.pdf#view=FitH" title="E-commerce Seasonal Showdown Newsletter" width="100%" height="100%" style="border: none; display: block;"></iframe>
             </div>
-
-            <p class="pdf-fallback">
-              If the embedded viewer does not load in your browser, <a href="assets/Newsletter/amazon%20vs%20Walmart%20holiday%20pricing.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.
-            </p>
+            <p class="pdf-fallback">If the embedded viewer does not load in your browser, <a href="assets/Newsletter/amazon%20vs%20Walmart%20holiday%20pricing.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.</p>
           </article>
         </section>
 
-        <section class="info-card" data-project-panel="digital-shopper-journey-fortnightly" style="margin-bottom: 24px;">
+        <section class="info-card panel-card" data-project-panel="digital-shopper-journey-fortnightly">
           <p class="eyebrow panel-eyebrow">Newsletter 02</p>
           <h2 class="panel-title">Digital Shopper Journey Fortnightly</h2>
           <p class="panel-subtitle">Shopper journey, buying experience, and digital best-practice storytelling</p>
 
           <div class="cards-grid panel-mb">
-            <article class="info-card">
-              <h3>About</h3>
-              <p>A fortnightly executive newsletter that translates digital shelf and shopper journey observations into clear recommendations across discovery, consideration, and decision stages.</p>
-            </article>
-            <article class="info-card">
-              <h3>Business Impact</h3>
-              <p>Created to help stakeholders quickly understand what leading OEM websites are doing well, what patterns matter, and where action is needed next.</p>
-            </article>
+            <article class="info-card"><h3>About</h3><p>A fortnightly executive newsletter that translates digital shelf and shopper journey observations into clear recommendations across discovery, consideration, and decision stages.</p></article>
+            <article class="info-card"><h3>Business Impact</h3><p>Created to help stakeholders quickly understand what leading OEM websites are doing well, what patterns matter, and where action is needed next.</p></article>
           </div>
 
-          <p class="panel-copy">
-            This sample edition focuses on AI PC shopping journeys, using HP as the anchor and comparing best practices seen across OEM websites in discovery, consideration, and decision moments.
-          </p>
-
-          <p class="panel-copy panel-copy-last">
-            The design turns website observations into a concise management readout with key metrics, journey levers, recommended watch-outs, and a clear bottom-line takeaway.
-          </p>
+          <p class="panel-copy">This sample edition focuses on AI PC shopping journeys, using HP as the anchor and comparing best practices seen across OEM websites in discovery, consideration, and decision moments.</p>
+          <p class="panel-copy panel-copy-last">The design turns website observations into a concise management readout with key metrics, journey levers, recommended watch-outs, and a clear bottom-line takeaway.</p>
 
           <article class="info-card">
             <h3>Newsletter PDF</h3>
             <p class="panel-copy-last">View the newsletter directly below.</p>
-
             <div class="pdf-frame pdf-medium">
-              <iframe
-                src="assets/Newsletter/PDET%20Newsletter.pdf#view=FitH"
-                title="Digital Shopper Journey Fortnightly Newsletter"
-                width="100%"
-                height="100%"
-                style="border: none; display: block;"
-              ></iframe>
+              <iframe src="assets/Newsletter/PDET%20Newsletter.pdf#view=FitH" title="Digital Shopper Journey Fortnightly Newsletter" width="100%" height="100%" style="border: none; display: block;"></iframe>
             </div>
-
-            <p class="pdf-fallback">
-              If the embedded viewer does not load in your browser, <a href="assets/Newsletter/PDET%20Newsletter.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.
-            </p>
+            <p class="pdf-fallback">If the embedded viewer does not load in your browser, <a href="assets/Newsletter/PDET%20Newsletter.pdf" target="_blank" rel="noopener noreferrer">open the PDF in a new tab</a>.</p>
           </article>
         </section>
       </div>
